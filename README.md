@@ -1,4 +1,4 @@
-#Joke Vault 🕶️
+# Joke Vault 🕶️
 
 A sleek, modern web application that fetches and displays jokes from the [Official Joke API](https://github.com/15Dkatz/official_joke_api). It features a dark, "vault-like" user interface where users can get a new joke and reveal its punchline on demand.
 
