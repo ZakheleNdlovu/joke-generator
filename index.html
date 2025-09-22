@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Joke Vault</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Dark Joke Vault</h1>
+        <p class="tagline">Where humor meets the shadows</p>
+        <div class="emoji">🕶️</div>
+        <div class="joke-card">
+            <p class="question" id="question">Click the button to unlock a joke!</p>
+            <p class="punchline" id="punchline"></p>
+        </div>
+        <p class="loading" id="loading" style="display: none;">Decrypting a secret joke...</p>
+        <p class="error" id="error" style="display: none;">Failed to access the joke vault. Try again!</p>
+
+        <div class="buttons-container">
+            <button class="reveal-btn" id="revealBtn" style="display: none;">
+                <i class="fas fa-unlock"></i> Reveal Punchline
+            </button>
+            <button class="new-joke-btn" id="newJokeBtn">
+                <i class="fas fa-sync"></i> Get New Joke
+            </button>
+        </div>
+
+        <div class="joke-counter">
+            Jokes unlocked: <span id="jokeCount">0</span>
+        </div>
+
+        <div class="footer">
+            Powered by Official Joke API
+        </div>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
